@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xin</groupId>
-    <artifactId>web-spring-boot-starter</artifactId>
+    <artifactId>study-spring-boot-web-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>study-spring-boot-web-starter</name>
     <description>Study project for Spring Boot Starter</description>
