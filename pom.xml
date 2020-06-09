@@ -55,7 +55,7 @@
         </dependency>
         <dependency>
             <groupId>com.xin</groupId>
-            <artifactId>redis-spring-boot-starter</artifactId>
+            <artifactId>study-spring-boot-redis-starter</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
