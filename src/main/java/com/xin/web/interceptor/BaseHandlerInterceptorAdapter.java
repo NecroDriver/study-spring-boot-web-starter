@@ -51,6 +51,7 @@ public abstract class BaseHandlerInterceptorAdapter extends HandlerInterceptorAd
     public List<String> getExcludePathPatterns() {
         List<String> list = new ArrayList<>();
         list.add("/static/**");
+        list.add("/swagger-ui/**");
         list.add("/swagger/**");
         list.add("/swagger-ui.html");
         list.add("/swagger-ui.html/**");
