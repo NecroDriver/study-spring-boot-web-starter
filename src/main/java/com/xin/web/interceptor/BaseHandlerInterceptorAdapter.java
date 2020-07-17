@@ -58,6 +58,7 @@ public abstract class BaseHandlerInterceptorAdapter extends HandlerInterceptorAd
         list.add("/swagger-ui.html/**");
         list.add("/swagger-resources/**");
         list.add("/webjars/**");
+        list.add("/favicon.ico");
         return list;
     }
 }
