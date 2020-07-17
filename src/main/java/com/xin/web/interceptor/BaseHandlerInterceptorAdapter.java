@@ -52,6 +52,7 @@ public abstract class BaseHandlerInterceptorAdapter extends HandlerInterceptorAd
         List<String> list = new ArrayList<>();
         list.add("/static/**");
         list.add("/swagger-ui/**");
+        list.add("/v3/api-docs");
         list.add("/swagger/**");
         list.add("/swagger-ui.html");
         list.add("/swagger-ui.html/**");
