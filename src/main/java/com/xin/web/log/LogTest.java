@@ -1,7 +1,7 @@
 package com.xin.web.log;
 
 import com.xin.web.base.Base;
-import com.xin.web.vo.ResultVo;
+import com.xin.common.vo.ResultVo;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,6 +1,6 @@
 package com.xin.web.base;
 
-import com.xin.web.exception.ValidateException;
+import com.xin.common.exception.ValidateException;
 import org.springframework.util.StringUtils;
 
 import java.util.regex.Pattern;

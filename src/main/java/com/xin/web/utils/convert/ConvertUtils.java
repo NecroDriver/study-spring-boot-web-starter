@@ -9,6 +9,7 @@ import java.util.Map;
 
 /**
  * 转化工具类
+ *
  * @author creator mafh 2018/1/19 14:27
  * @author updater mafh
  * @version 1.0.0
@@ -54,13 +55,12 @@ public class ConvertUtils {
         }
         Method[] methods = clazz.getDeclaredMethods();
         T entity = clazz.newInstance();
-        map.entrySet().forEach(entry -> {
-            String str = entry.getKey();
+        map.forEach((str, value) -> {
             String setMethod = "set" + str.substring(0, 1).toUpperCase() + str.substring(1);
             for (Method method : methods) {
                 if (method.getName().equals(setMethod)) {
                     try {
-                        method.invoke(entity, entry.getValue());
+                        method.invoke(entity, value);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

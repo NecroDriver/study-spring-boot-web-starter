@@ -1,7 +1,7 @@
 package com.xin.web.handler;
 
-import com.xin.web.exception.ValidateException;
-import com.xin.web.vo.ResultVo;
+import com.xin.common.exception.ValidateException;
+import com.xin.common.vo.ResultVo;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

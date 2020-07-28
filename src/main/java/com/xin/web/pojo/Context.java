@@ -1,6 +1,6 @@
 package com.xin.web.pojo;
 
-import com.xin.web.vo.UserVo;
+import com.xin.common.vo.UserVo;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
